@@ -15,6 +15,9 @@ body{
 }
 p{
     text-align: center;
+}
+b{
+    text-align:center;
 } 
 pre{
     text-align: center;
@@ -60,6 +63,7 @@ pre{
 #reg{
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
 }
 #txt{
     text-align: center;
