@@ -13,8 +13,16 @@ body{
 #lst{
     margin-left: 45%;
 }
+#pls{
+    font-family:'Century';
+    font-size: 5mm;
+    font-weight: bolder;
+}
 p{
     text-align: center;
+}
+#task{
+    font-family: 'Verdana'
 }
 b{
     text-align:center;
