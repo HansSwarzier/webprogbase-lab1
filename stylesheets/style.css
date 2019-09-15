@@ -24,7 +24,8 @@ pre{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    widows: 50%;
+    width: 72%;
+    height: 35%;
 }   
 #links{
     background:aqua;
