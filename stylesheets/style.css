@@ -1,5 +1,4 @@
 body{
-    size: 960px;
     background:lightskyblue;
     align-items:center;
 }
@@ -8,26 +7,58 @@ body{
     background: aquamarine;
     font: 200;
     width: 30%;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+#lst{
+    margin-left: 45%;
+}
+p{
+    text-align: center;
+} 
+pre{
+    text-align: center;
+    font-size: 4.5mm;
+}
+#someimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    widows: 50%;
 }   
 #links{
-    background:lightblue;
+    background:aqua;
     width: fit-content;
     margin-left: 40%;
+    margin-top: 5mm;
     font-family: Arial, Helvetica, sans-serif;
 }
 .thet{
+    margin:auto;
     empty-cells: show;
     table-layout: auto;
     border-color:blue;
     width: 15cm;
     height: 3cm;
 }
+#spbox{
+    width: 960px;
+    margin:auto;
+    align-items:center;
+    background:cornsilk;
+    height: 1100px;
+}
+/* a:
+{
+    background:lightgray;
+    font-weight: bolder;
+} */
 #username{
     text-align: center;
 }
 #reg{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #txt{
     text-align: center;
@@ -39,11 +70,9 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-#thext{
-    background: green
-}
 #mos{
-    size: 10cm,10cm;
+    width: 12cm;
+    height: 10cm;
     display: block;
     border-radius: 5cm;
     margin-left: auto;
