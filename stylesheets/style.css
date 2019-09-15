@@ -1,0 +1,30 @@
+body{
+    width: 960px;
+    background:whitesmoke;
+}
+#header{
+    text-align: center;
+    background: aquamarine;
+    font: 200;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:  32%;
+    /* width: fit-content;
+    height: initial; */
+    
+}
+#links{
+    text-align: center;
+    background:lightblue;  
+    font:150;
+    height: 3cm;
+    width:14cm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 48%;
+}
+.thet{
+    empty-cells: show;
+    table-layout:auto;
+    border-color:blue;
+    width: 15cm;
+    height: 3cm;
+}
