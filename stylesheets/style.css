@@ -1,30 +1,51 @@
 body{
-    width: 960px;
-    background:whitesmoke;
+    size: 960px;
+    background:lightskyblue;
+    align-items:center;
 }
 #header{
-    text-align: center;
+    margin:auto;
     background: aquamarine;
     font: 200;
+    width: 30%;
     font-family: 'Times New Roman', Times, serif;
-    margin-left:  32%;
-    /* width: fit-content;
-    height: initial; */
-    
-}
+}   
 #links{
-    text-align: center;
-    background:lightblue;  
-    font:150;
-    height: 3cm;
-    width:14cm;
+    background:lightblue;
+    width: fit-content;
+    margin-left: 40%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 48%;
 }
 .thet{
     empty-cells: show;
-    table-layout:auto;
+    table-layout: auto;
     border-color:blue;
     width: 15cm;
     height: 3cm;
+}
+#username{
+    text-align: center;
+}
+#reg{
+    text-align: center;
+}
+#txt{
+    text-align: center;
+    font:200; 
+}
+#kisel{
+    display: block;
+    border-radius: 5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thext{
+    background: green
+}
+#mos{
+    size: 10cm,10cm;
+    display: block;
+    border-radius: 5cm;
+    margin-left: auto;
+    margin-right: auto;
 }
